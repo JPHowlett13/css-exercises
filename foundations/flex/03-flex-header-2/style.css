@@ -15,10 +15,14 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 8px;
+  margin: 0;
 }
 
 .left-bar {
   display: flex;
+  gap: 16px;
 }
 
 .logo {
@@ -26,6 +30,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  
 }
 
 a {
@@ -37,11 +42,13 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-
+  padding: 0;
+  gap: 16px;
 }
 
 .right-bar {
   display: flex;
+  gap: 16px;
 }
 
 .profile-image {
